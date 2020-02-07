@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Social Network App</string>
+    <string name="drawer_menu_open">Menu</string>
+    <string name="drawer_menu_close">Close</string>
+</resources>

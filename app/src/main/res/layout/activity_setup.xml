@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context=".RegisterActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/profile"
+            android:layout_gravity="center"
+            android:layout_marginTop="70dp"/>
+
+
+        <EditText
+            android:id="@+id/input_setup_fullname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/name"
+            android:background="@drawable/inputs"
+            android:hint="Enter full name"
+            android:textSize="15dp"
+            android:inputType="text"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="6dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/input_setup_birthdate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputs"
+            android:hint="Your birth date"
+            android:textSize="15dp"
+            android:inputType="textEmailAddress"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="6dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/input_setup_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputs"
+            android:hint="Your address"
+            android:textSize="15dp"
+            android:inputType="textEmailAddress"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="6dp"
+            android:layout_marginTop="12dp"/>
+
+        <EditText
+            android:id="@+id/input_setup_country"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/inputs"
+            android:hint="Your country"
+            android:textSize="15dp"
+            android:inputType="textPassword"
+            android:paddingVertical="10dp"
+            android:paddingHorizontal="6dp"
+            android:layout_marginTop="12dp"/>
+
+<!--        <DatePicker-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:id="@+id/datePicker"-->
+<!--            style="@style/MyDatePickerStyle"-->
+<!--            android:theme="@style/MyDatePickerSpinnerStyle"/>-->
+
+        <Button
+            android:id="@+id/create_register_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save Information"
+            android:background="@drawable/buttons"
+            android:textSize="16dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
